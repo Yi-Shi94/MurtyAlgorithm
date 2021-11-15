@@ -1,12 +1,12 @@
 from setuptools import setup, Extension
-
+import pybind11, os
 
 
 functions_module = Extension(
     name='MurtyMiller',
-    sources=['MurtyAlgorithm/wrapper.cpp'],
+    sources=['wrapper.cpp'],
     extra_compile_args=["-O3","-fPIC"],
-    include_dirs=['/home/users/ps/anaconda3/envs/sy3d/lib/python3.8/site-packages/pybind11/include'],
+    include_dirs=[os.path.dirname(pybind11.__file__)+'/include'],
 )
 
 

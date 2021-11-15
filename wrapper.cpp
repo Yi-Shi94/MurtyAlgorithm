@@ -2,7 +2,7 @@
 #include <pybind11/numpy.h>
 #include <pybind11/stl.h>
 #include <Python.h>
-#include "Miller.h"
+#include "MurtyAlgorithm/Miller.h"
 using namespace std;
 namespace py = pybind11;
 

@@ -1,0 +1,3 @@
+[submodule "MurtyAlgorithm"]
+	path = MurtyAlgorithm
+	url = https://github.com/fbaeuerlein/MurtyAlgorithm
