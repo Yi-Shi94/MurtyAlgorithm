@@ -1,7 +1,0 @@
-README.md
-setup.py
-wrapper.cpp
-MurtyMiller.egg-info/PKG-INFO
-MurtyMiller.egg-info/SOURCES.txt
-MurtyMiller.egg-info/dependency_links.txt
-MurtyMiller.egg-info/top_level.txt
