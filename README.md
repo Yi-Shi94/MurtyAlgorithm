@@ -21,9 +21,9 @@ sol = nbla(a,num_solution) #num_solution x 2 x min(row,col)
 
 In wrapper.cpp, I try to ensure same behavior as scipy.optimize.linear_sum_assignment for top1 assignment solution, supporting arbitrary size of input matrix. 
 
-The return value of scipy.optimize.linear_sum_assignment is (row_idx,col_idx) -> \[np.array<1\xm>,np.array<1\xm>\]. 
+The return value of scipy.optimize.linear_sum_assignment is (row_idx,col_idx) -> \[np.array<1xm>,np.array<1xm>\]. 
 
-In our case, it's (n_sol \x (row_idx, col_idx)) -> np.array<n\x2\xm> in a single numpy array. 
+In our case, it's (n_sol x (row_idx, col_idx)) -> np.array<nx2xm> in a single numpy array. 
 
 
 
