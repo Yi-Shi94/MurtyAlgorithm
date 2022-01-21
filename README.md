@@ -23,7 +23,7 @@ In wrapper.cpp, I try to ensure same behavior as scipy.optimize.linear_sum_assig
 
 The return value of scipy.optimize.linear_sum_assignment is (row_idx,col_idx) -> \[np.array<1xm>,np.array<1xm>\]. 
 
-In our case, it's (n_sol x (row_idx, col_idx)) -> np.array<nx2xm> in a single numpy array. 
+In our case, it's (n_sol x (row_idx, col_idx)) -> np.array<n x 2 x m> in a single numpy array. 
 
 
 
